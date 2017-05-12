@@ -1,0 +1,90 @@
+  The past two decades have seen the computing industry undergo explosive
+growth. We now have digital natives who have grown up on the internet. I am certainly
+one of them, but I did not have computers when I was a very young toddler. My younger
+colleagues have never seen a world without the internet. Through these fundamental
+experiences, one can safely assume that the internet has become a home ground
+for many people now living throughout the world. And as such, user interfaces
+can also be used to filter and target those users who have the highest technical
+intuitions.
+
+  The challenge is to create UX patterns that start with the keyboard rather than the mouse.
+As such, the keyboard is to raise itself alongside the mouse and touch screen as
+a sovereign user interaction center, rather than one that is only occasionally used.
+
+  There needs to be a web interface that surrounds the keyboard. Keyboards are
+very capable of creating user experiences that are pleasant, useful, meaningful and
+intuitive. Command line interfaces (CLIs) are known to be generally uniform throughout
+the lifecyle of the toolset it belongs to. For example, modern `ls` has remained backwards
+compatible in its primary interface, while over the years accumulating a large set
+of supporting functionality that works alongside existing features.
+
+  What if there was a user interface that did not significantly change for your
+entire lifetime?
+
+  This user interface cannot be created via visual means. The eye grows bored of
+old colors and logos and, as seasons change and fashions fall, the familiar becomes
+outmoded and must be replaced with a new fashion, a new color, a new shape. Hence
+the continual evolution of the visual arts over time.
+
+  The mouse is limited and causes alienation. Elements become things to be seen
+and not touched. Tactile sense disappears, as does sound, and everything becomes
+as a painting, to be marvelled at and admired, but not to be built. At least, not
+without great effort.
+
+  There are five primary modes of mouse operation:
+    1. Moving
+    2. Left button press
+    3. Right button press
+    4. Middle button press
+    5. Wheel scrobbling
+  From these modes come a medley of secondary modes:
+    *. Dragging: left button press and hold, moving, and release
+    *. Hovering: moving over an element for a long time
+    *. Context menu: right clicking (unless disabled, which is not immediately obvious)
+    *. Scrolling using middle click, as in a browser
+    *. Left+Right button combination press: Sometimes used in video games for power moves
+    *. Middle button in video games often activates items or throws grenades, or
+       calls some other useful auxiliary function
+
+   These functions are not always consistent with user experience... For example,
+when using a mouse pad, dragging becomes difficult. You can also drag with triple
+touch. Two finger touch means scrolling. But these are somewhat awkward sometimes,
+depending on the hardware you are using.
+
+  But what about terminal-like interfaces? Interfaces which you can use just the
+keyboard to navigate. I think these have a place in the world. Websites are not
+simply places that host visual content. They are backed by servers which have full
+SSH access in most cases. They are fully capable of being expressed in plain text
+command line fashion.
+
+  Let us take, for example, a fictional application called Cheffy. Cheffy is an
+online portal for superheroes. It lets superheroes shop for a vast variety of goods
+that a superhero might be interested in purchasing.
+
+$ cheffy
+... Logging in to cheffy with your cached credentials ...
+$ cheffy>
+$ cheffy> hello
+Hello, Strongman Samuel! I'm happy to announce that there's a SALE going on right now!
+All crime fighting essentials for him are 30% off the lowest listed tag price! That's
+right! And what's more: fashion fundamentals for the femme fatale are retailing at
+49% off, only until April 30th!
+    Available commands:
+    * hello (repeats this screen)
+    * for m - Men's section
+    * for f - Women's section
+    * cart (0 items)
+    * more ...
+$ cheffy more
+  Available commands:
+    * account
+    * settings
+    * profile
+    * logout
+
+This is a simplistic example, one that is probably unrealistic because the average
+user of the shopping site is probably not familiar with the terminal. Although,
+some are indubitably super smart mutants.
+
+So, what is a more likely scenario for our user interface? How about an email client
+with autocomplete?
